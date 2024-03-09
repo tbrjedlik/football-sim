@@ -55,7 +55,7 @@ def probs_to_results(probs:list[float]) -> str:
 
     winner = random.randint(1, sum)
     
-    print(winner)
+    # print(winner)
 
     if winner in range(1, home+1):
         return 'H'
