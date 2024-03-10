@@ -13,7 +13,7 @@ print('------------------------------------------')
 
 fixtures: list[Fixture] = []
 
-f = open('results.txt', 'w', encoding='utf-8')
+f = open('results/results.txt', 'w', encoding='utf-8')
 f.write('Még nincs eredmény.')
 f.close()
 
@@ -21,7 +21,7 @@ f.close()
 for i in range(0, len(clubs), 2):
     fixtures.append(Fixture(i, i+1))
     
-f = open('results.txt', 'w', encoding='utf-8')
+f = open('results/results.txt', 'w', encoding='utf-8')
 f.write('')
 f.close()
     

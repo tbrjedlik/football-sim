@@ -42,7 +42,7 @@ class Fixture:
         
         winner = randint(1, sum)
         
-        f = open('results.txt', 'a', encoding='utf-8')
+        f = open('results/results.txt', 'a', encoding='utf-8')
         f.write(f'{self.home.abbr} - {self.away.abbr}\n')
         
         if winner in range(1, home+1):
