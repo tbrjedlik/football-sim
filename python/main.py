@@ -13,14 +13,29 @@ print('------------------------------------------')
 
 fixtures: list[Fixture] = []
 
+if not os.path.exists('results'):
+    os.makedirs('results')
+
 f = open('results/results.txt', 'w', encoding='utf-8')
 f.write('Még nincs eredmény.')
 f.close()
 
+number_of_rounds = len(clubs) * (len(clubs) -1)
 
 for i in range(0, len(clubs), 2):
     fixtures.append(Fixture(i, i+1))
-    
+
+
+
+
+
+
+
+
+
+
+
+ 
 f = open('results/results.txt', 'w', encoding='utf-8')
 f.write('')
 f.close()
@@ -43,7 +58,6 @@ for i in range(0, len(fixtures)):
             case 'A':
                 print(f'Győztes: {fixtures[i].away.name} ({fixtures[i].away_odds})')
         print()
-
 
 
 
