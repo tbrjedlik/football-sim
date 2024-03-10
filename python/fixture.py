@@ -1,5 +1,5 @@
 from random import randint, uniform
-from sim import prob_to_odd
+from sim import prob_to_odd, points
 from club import clubs
 
 class Fixture:
@@ -31,7 +31,7 @@ class Fixture:
             
             
             
-    def simulating_result(self) -> str:
+    def simulating_result(self, round_num) -> str:
         n = 5
         
         home = int ( round(self.probs[0], n) * 10**(n+1) )
@@ -42,9 +42,25 @@ class Fixture:
         
         winner = randint(1, sum)
         
+        f = open('results.txt', 'a', encoding='utf-8')
+        f.write(f'{self.home.abbr} - {self.away.abbr}\n')
+        
         if winner in range(1, home+1):
+            points[self.home.abbr] += 3
+            f.write(f'{self.home.abbr}\n')
+            f.write(f'................\n')
+            f.close()
             return 'H'
         if winner in range(home+1, home+draw+1):
+            points[self.home.abbr] += 1
+            points[self.away.abbr] += 1
+            f.write(f'D\n')
+            f.write(f'................\n')
+            f.close()
             return 'D'
         else:
+            points[self.away.abbr] += 3
+            f.write(f'{self.away.abbr}\n')
+            f.write(f'................\n')
+            f.close()
             return 'A'

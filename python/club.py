@@ -1,3 +1,5 @@
+from random import shuffle
+
 class Club:
     def __init__(self, row) -> None:
         
@@ -17,3 +19,5 @@ f.close()
 
 if len(clubs) % 2!= 0:
     raise Exception('Nem lehet páratlan számú csapat!')
+
+shuffle(clubs)
