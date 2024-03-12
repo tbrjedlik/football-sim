@@ -64,5 +64,39 @@ class Fixture:
             f.write(f'................\n')
             f.close()
             return 'A'
-        
+
 fixtures: list[Fixture] = []
+
+rounds_num = int( (len(clubs) * (len(clubs)-1))/10 )
+
+
+def fixture_maker(cs):
+    for c in cs:
+        pairing = []
+        for i in range(0, int(len(cs)/2)):
+            pairing.append([cs[i], cs[-1-i]])
+    for p in pairing:
+        fixtures.append(Fixture(p[0], p[1]))
+
+def round_robin():
+
+    club_index = []
+
+    for i in range(0, len(clubs)):
+        club_index.append(i)
+
+
+    for i in range(0, rounds_num):
+
+        if i == 0:
+
+            fixture_maker(club_index)
+            
+        else:
+            
+            club_index.insert(1, club_index[-1])
+            club_index=club_index[0:len(club_index)-1]
+            
+            fixture_maker(club_index)
+            
+

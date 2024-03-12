@@ -4,27 +4,15 @@ from sim import *
 from fixture import *
 
 
-print('------------------------------------------')
-print('------------------------------------------')
-print('------------------------------------------')
-print('------------------------------------------')
-print('------------------------------------------')
-
-
 reset()
 
+print('------------------------------------------')
+print('------------------------------------------')
+print('------------------------------------------')
+print('------------------------------------------')
+print('------------------------------------------')
 
-rounds_num = len(clubs) * (len(clubs) -1)
-
-
-
-
-
-
-
-
-for i in range(0, len(clubs), 2):
-    fixtures.append(Fixture(i, i+1))
+round_robin()
 
 
 
@@ -32,13 +20,12 @@ for i in range(0, len(clubs), 2):
 
 
 
-for i in range(0, len(fixtures)):
 
-    print(f'{fixtures[i].home.name} - {fixtures[i].away.name}')
+for f in fixtures[0:10]:
+    print(f'{f.home.name} - {f.away.name}')
 
 
 
-print(len(fixtures))
 
  
 '''
@@ -73,13 +60,6 @@ print(points)
 
 
 
-# for i in range(0, len(fixtures)):
-
-#     print(f'{fixtures[i].home.name} - {fixtures[i].away.name}')
-#     print(f'{fixtures[i].home_odds} - {fixtures[i].draw_odds} - {fixtures[i].away_odds}')
-#     print()
-
-# input('Forduló szimulálása (Enter)')
 
 
 
