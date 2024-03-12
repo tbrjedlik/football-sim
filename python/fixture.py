@@ -1,5 +1,5 @@
 from random import randint, uniform
-from sim import prob_to_odd, points
+from sim import prob_to_odd, points, played_games
 from club import clubs
 
 class Fixture:
@@ -47,6 +47,8 @@ class Fixture:
         
         if winner in range(1, home+1):
             points[self.home.abbr] += 3
+            played_games[self.home.abbr] += 1
+            played_games[self.away.abbr] += 1
             f.write(f'{self.home.abbr}\n')
             f.write(f'................\n')
             f.close()
@@ -54,12 +56,16 @@ class Fixture:
         if winner in range(home+1, home+draw+1):
             points[self.home.abbr] += 1
             points[self.away.abbr] += 1
+            played_games[self.home.abbr] += 1
+            played_games[self.away.abbr] += 1
             f.write(f'D\n')
             f.write(f'................\n')
             f.close()
             return 'D'
         else:
             points[self.away.abbr] += 3
+            played_games[self.home.abbr] += 1
+            played_games[self.away.abbr] += 1
             f.write(f'{self.away.abbr}\n')
             f.write(f'................\n')
             f.close()
@@ -67,7 +73,8 @@ class Fixture:
 
 fixtures: list[Fixture] = []
 
-rounds_num = int( (len(clubs) * (len(clubs)-1))/10 )
+number_of_rounds = (len(clubs) - 1)*2
+fixtures_num = int( (len(clubs) * (len(clubs)-1))/10 )
 
 
 def fixture_maker(cs):
@@ -86,7 +93,7 @@ def round_robin():
         club_index.append(i)
 
 
-    for i in range(0, rounds_num):
+    for i in range(0, fixtures_num):
 
         if i == 0:
 
