@@ -1,9 +1,8 @@
-from fixture import Fixture
 import os
 from club import clubs
-from sim import points
+from sim import *
+from fixture import *
 
-os.system('cls')
 
 print('------------------------------------------')
 print('------------------------------------------')
@@ -11,16 +10,18 @@ print('------------------------------------------')
 print('------------------------------------------')
 print('------------------------------------------')
 
-fixtures: list[Fixture] = []
 
-if not os.path.exists('results'):
-    os.makedirs('results')
+reset()
 
-f = open('results/results.txt', 'w', encoding='utf-8')
-f.write('Még nincs eredmény.')
-f.close()
 
-number_of_rounds = len(clubs) * (len(clubs) -1)
+rounds_num = len(clubs) * (len(clubs) -1)
+
+
+
+
+
+
+
 
 for i in range(0, len(clubs), 2):
     fixtures.append(Fixture(i, i+1))
@@ -31,14 +32,16 @@ for i in range(0, len(clubs), 2):
 
 
 
+for i in range(0, len(fixtures)):
+
+    print(f'{fixtures[i].home.name} - {fixtures[i].away.name}')
 
 
 
+print(len(fixtures))
 
  
-f = open('results/results.txt', 'w', encoding='utf-8')
-f.write('')
-f.close()
+'''
     
 for i in range(0, len(fixtures)):
     print(f'{fixtures[i].home.name}   -   {fixtures[i].away.name}')
@@ -64,7 +67,7 @@ for i in range(0, len(fixtures)):
 
 print(points)
 
-
+'''
 
 
 

@@ -64,3 +64,5 @@ class Fixture:
             f.write(f'................\n')
             f.close()
             return 'A'
+        
+fixtures: list[Fixture] = []
