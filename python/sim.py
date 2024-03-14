@@ -14,7 +14,7 @@ for c in clubs:
 
 def reset():
     os.system('cls')
-
+    
     if not os.path.exists('results'):
         os.makedirs('results')
     
@@ -22,21 +22,23 @@ def reset():
     f.write('')
     f.close()
     
+def main_title():
+    os.system('cls')
     
-    # print()
-    # print()
-    # print('   ________  ____  _________  ___   __   __     __________  ___')
-    # print('  / __/ __ \/ __ \/_  __/ _ )/ _ | / /  / /    / __/  _/  |/  /')
-    # print(' / _// /_/ / /_/ / / / / _  / __ |/ /__/ /__  _\ \_/ // /|_/ / ')
-    # print('/_/  \____/\____/ /_/ /____/_/ |_/____/____/ /___/___/_/  /_/  ')
-    # print()
-    # print()
+    print()
+    print()
+    print('   ________  ____  _________  ___   __   __     __________  ___')
+    print('  / __/ __ \/ __ \/_  __/ _ )/ _ | / /  / /    / __/  _/  |/  /')
+    print(' / _// /_/ / /_/ / / / / _  / __ |/ /__/ /__  _\ \_/ // /|_/ / ')
+    print('/_/  \____/\____/ /_/ /____/_/ |_/____/____/ /___/___/_/  /_/  ')
+    print()
+    print()
 
-    # sleep(0.5)
+    sleep(0.5)
     
-    # input('CONTINUE >>> ')
+    input('CONTINUE >>> ')
     
-    # os.system('cls')
+    os.system('cls')
 
 
 
