@@ -1,4 +1,4 @@
-import os
+import os, subprocess
 from club import clubs
 from sim import *
 from fixture import *
@@ -34,10 +34,16 @@ def menu():
                 case '4':
                     simulating()
                 case '5':
-                    os.system('exit')
+                    y_n = ''
+                    while y_n not in ['y','n']:
+                        y_n = input(f'Are you sure you want to exit? (y/n): ')
+                    if y_n.lower() == 'y':
+                        os.system('exit')
+                    else:
+                        menu()
                 
         else:
-            while v not in ['1', '2', '3']:
+            while v not in ['1', '2', '3', '4']:
                 os.system('cls')
                 print('\n+------+')
                 print('| MENU |')
@@ -47,7 +53,8 @@ def menu():
             
                 print('1 > Table')
                 print('2 > Results')
-                print('3 > EXIT')
+                print('3 > NEW SIMULATION')
+                print('4 > EXIT')
                 
                 v = input('\nGO TO >>> ')
                 
@@ -56,8 +63,25 @@ def menu():
                         table()
                     case '2':
                         prev_results()
+                    
                     case '3':
-                        os.system('exit')
+                        y_n = ''
+                        while y_n not in ['y','n']:
+                            y_n = input(f'Are you want to start a new simulation? (y/n): ')
+                        if y_n.lower() == 'y':
+                            subprocess.run(["python", "python/main.py"])
+                            os.system('exit')
+                        else:
+                            menu()
+                        
+                    case '4':
+                        y_n = ''
+                        while y_n not in ['y','n']:
+                            y_n = input(f'Are you sure you want to exit? (y/n): ')
+                        if y_n.lower() == 'y':
+                            os.system('exit')
+                        else:
+                            menu()
 
 def table():
     os.system('cls')
@@ -91,7 +115,7 @@ def upcoming_fixtures():
     while v not in range(1, number_of_rounds + 1):
 
         user_input = input(f'Enter round number (1-{number_of_rounds}) or type "M" for menu: ')
-        if user_input.lower() == "M":
+        if user_input.lower() == "m":
             menu()
             break
         elif user_input.isdigit():
@@ -124,7 +148,7 @@ def simulating():
     while v not in range(1, number_of_rounds + 1):
 
         user_input = input(f'Enter round number ({upcoming_round}-{number_of_rounds}) you want to simulate or type "M" for menu: ')
-        if user_input.lower() == "M":
+        if user_input.lower() == "m":
             menu()
             break
         elif user_input.isdigit():
@@ -137,10 +161,10 @@ def simulating():
             print('+------------+\n')
 
             if v != upcoming_round:
-                v_y_n = ''
-                while v_y_n not in ['y','n']:
-                    v_y_n = input(f'The next round is not round {v}. Do you want to skip to round {v}? (y/n): ')
-                    if v_y_n.lower() == 'y':
+                y_n = ''
+                while y_n not in ['y','n']:
+                    y_n = input(f'The next round is not round {v}. Do you want to skip to round {v}? (y/n): ')
+                    if y_n.lower() == 'y':
                         pass
                     else:
                         simulating()
@@ -152,10 +176,10 @@ def simulating():
                 print(f'{f.home_odds} | {f.draw_odds} | {f.away_odds}')
                 print()
                         
-            v_y_n = ''
-            while v_y_n not in ['y','n']:
-                v_y_n = input(f'Do you want to simulate these fixtures? (y/n): ')
-                if v_y_n.lower() == 'y':
+            y_n = ''
+            while y_n not in ['y','n']:
+                y_n = input(f'Do you want to simulate these fixtures? (y/n): ')
+                if y_n.lower() == 'y':
                     for f in fixtures[(upcoming_round-1) * int(len(clubs)/2) : (v * int(len(clubs)/2) )]:
                         f.simulating_result()
                         
@@ -174,9 +198,6 @@ def simulating():
                     menu()
 
 
-
-
-
 reset()
 
 main_title()
@@ -185,76 +206,3 @@ round_robin()
 fixtures = matches + rematches
 
 menu()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# i = 1
-# for f in fixtures:
-#     print(i)
-#     i+=1
-#     print(f'{f.home.name} - {f.away.name}')
-
-
-
-
-
-
-# for f in fixtures[0:10]:
-#     print(f'{f.home.name} - {f.away.name}')
-
-
-
-
- 
-'''
-    
-for i in range(0, len(fixtures)):
-    print(f'{fixtures[i].home.name}   -   {fixtures[i].away.name}')
-    print(f'{fixtures[i].home_odds}  -  {fixtures[i].draw_odds}  -  {fixtures[i].away_odds}')
-    print()
-
-input(f'\nFORDULÓ SZIMULÁLÁSA >>>')
-print('\n')
-
-for i in range(0, len(fixtures)):
-        print(f'{fixtures[i].home.name}   -   {fixtures[i].away.name}')
-        match fixtures[i].simulating_result(i):
-            case 'H':
-                print(f'Győztes: {fixtures[i].home.name} ({fixtures[i].home_odds})')
-            case 'D':
-                print(f'Döntetlen ({fixtures[i].draw_odds})')
-            case 'A':
-                print(f'Győztes: {fixtures[i].away.name} ({fixtures[i].away_odds})')
-        print()
-
-
-
-
-print(points)
-
-'''
-
-
-
-
-
-
-
-
-
-
