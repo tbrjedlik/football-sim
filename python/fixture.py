@@ -29,9 +29,7 @@ class Fixture:
             self.draw_odds = round( prob_to_odd(self.draw_prob) , 2)
             self.away_odds = round( prob_to_odd(self.away_prob) , 2)
             
-            
-            
-    def simulating_result(self, round_num) -> str:
+    def simulating_result(self) -> str:
         n = 5
         
         home = int ( round(self.probs[0], n) * 10**(n+1) )
@@ -71,10 +69,20 @@ class Fixture:
             f.close()
             return 'A'
 
+class Match(Fixture):
+    pass
+
+class Rematch(Fixture):
+    def __init__(self, home_num: int, away_num: int) -> None:
+        super().__init__(away_num, home_num)
+
 fixtures: list[Fixture] = []
+matches: list[Fixture] = []
+rematches: list[Fixture] = []
+
 
 number_of_rounds = (len(clubs) - 1)*2
-fixtures_num = int( (len(clubs) * (len(clubs)-1))/10 )
+fixtures_num = int( (len(clubs) * (len(clubs)-1)) / 20 )
 
 
 def fixture_maker(cs):
@@ -83,7 +91,8 @@ def fixture_maker(cs):
         for i in range(0, int(len(cs)/2)):
             pairing.append([cs[i], cs[-1-i]])
     for p in pairing:
-        fixtures.append(Fixture(p[0], p[1]))
+        matches.append(Match(p[0], p[1]))
+        rematches.append(Rematch(p[0], p[1]))
 
 def round_robin():
 
@@ -105,5 +114,3 @@ def round_robin():
             club_index=club_index[0:len(club_index)-1]
             
             fixture_maker(club_index)
-            
-
