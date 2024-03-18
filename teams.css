@@ -1,0 +1,13 @@
+.logo_and_subtitle{
+    text-align: center;
+}
+
+.text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 125%;
+    padding-top: 5%;
+}
+
+.team_pics{
+    height: 20%;    
+}
