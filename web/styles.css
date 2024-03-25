@@ -1,3 +1,96 @@
+/* FONTS */
+
+/* @font-face {
+    font-family: "Arkitype-Super-League-Black-Oblique";
+    src: url("/web/fonts/Arkitype\ -\ Super\ League\ Black.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Arkitype-Super-League-Black";
+    src: url("/web/fonts/Arkitype\ -\ Super\ League\ Black\ Oblique.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Arkitype-Super-League-Bold-Oblique";
+    src: url("/web/fonts/Arkitype\ -\ Super\ League\ Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Arkitype-Super-League-Bold";
+    src: url("/web/fonts/Arkitype\ -\ Super\ League\ Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Arkitype-Super-League-Extra-Bold-Oblique";
+    src: url("/web/fonts/Arkitype\ -\ Super\ League\ Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Arkitype-Super-League-Extra-Bold";
+    src: url("/web/fonts/Arkitype\ -\ Super\ League\ Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Arkitype-Super-League-Extra-Light-Oblique";
+    src: url("/web/fonts/Arkitype\ -\ Super\ League\ Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Arkitype-Super-League-Extra-Light";
+    src: url("/web/fonts/Arkitype\ -\ Super\ League\ Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Arkitype-Super-League-Light-Oblique";
+    src: url("/web/fonts/Arkitype\ -\ Super\ League\ Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Arkitype-Super-League-Light";
+    src: url("/web/fonts/Arkitype\ -\ Super\ League\ Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Arkitype-Super-League-Medium-Oblique";
+    src: url("/web/fonts/Arkitype\ -\ Super\ League\ Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Arkitype-Super-League-Medium";
+    src: url("/web/fonts/Arkitype\ -\ Super\ League\ Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Arkitype-Super-League-Regular-Oblique";
+    src: url("/web/fonts/Arkitype\ -\ Super\ League\ Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Arkitype-Super-League-Regular-Oblique";
+    src: url("/web/fonts/Arkitype\ -\ Super\ League\ Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Arkitype-Super-League-..........";
+    src: url("/web/fonts/Arkitype\ -\ Super\ League\ Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Arkitype-Super-League---------------";
+    src: url("/web/fonts/Arkitype\ -\ Super\ League\ Bold.ttf") format("truetype");
+}
+ */
+
+
+
+
+
+
+
+
+
+/* HTML */
+
 html{
     overflow-x: hidden !important;
 }
@@ -218,3 +311,22 @@ a:visited{
 .ps-10{
     padding-left: 5rem;
 }
+
+
+/* TEAMS */
+
+
+.logo_and_subtitle{
+    text-align: center;
+}
+
+.text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 125%;
+    padding-top: 5%;
+}
+
+.team_pics{
+    height: 20%;    
+}
+
