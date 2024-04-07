@@ -105,7 +105,7 @@ def prev_results():
     pass
 
 def upcoming_fixtures():
-
+    global upcoming_round
 
     os.system('cls')
     print('\n+-------------------+')
@@ -114,15 +114,15 @@ def upcoming_fixtures():
     
     v = 0
     
-    while v not in range(1, number_of_rounds + 1):
+    while v not in range((upcoming_round), number_of_rounds + 1):
 
-        user_input = input(f'Enter round number (1-{number_of_rounds}) or type "M" for menu: ')
+        user_input = input(f'Enter round number ({upcoming_round}-{number_of_rounds}) or type "M" for menu: ')
         if user_input.lower() == "m":
             menu()
             break
         elif user_input.isdigit():
             v = int(user_input)
-        if v in range(1, number_of_rounds + 1):
+        if v in range(upcoming_round, number_of_rounds + 1):
 
             os.system('cls')
             print('\n+-------------------+')
@@ -147,7 +147,7 @@ def simulating():
     
     v = 0
     
-    while v not in range(1, number_of_rounds + 1):
+    while ( v not in range(1, number_of_rounds + 1) ) or ( v < upcoming_round ):
 
         user_input = input(f'Enter round number ({upcoming_round}-{number_of_rounds}) you want to simulate or type "M" for menu: ')
         if user_input.lower() == "m":
