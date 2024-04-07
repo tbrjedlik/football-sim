@@ -73,33 +73,32 @@ h4 {
 .title{
     text-align: center;
     font-size: 8rem;
-    padding-top: 4%;
     font-family: fantasy;
 }
 
-.logo img {
+.logo img{
     transition: transform 0.3s ease;
     max-width: 12rem;
     max-height: 12rem;
 }
 
-.logo img:hover {
+.logo img:hover{
     transform: scale(1.1);
 }
 
-.side-line {
+.side-line{
     position: fixed;
-    top: 0;
-    width: 4rem;
+    top: 10rem;
+    width: 4%;
     height: 100%;
     background-color: #031938;
     z-index: 1000;
   }
   
-  .top-bar.left {
+.side-line.left{
     left: 0;
   }
   
-  .top-bar.right {
+.side-line.right{
     right: 0;
   }
