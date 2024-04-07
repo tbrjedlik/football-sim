@@ -29,45 +29,53 @@ class Fixture:
             self.draw_odds = round( prob_to_odd(self.draw_prob) , 2)
             self.away_odds = round( prob_to_odd(self.away_prob) , 2)
             
+            self.winner = None
+            
     def simulating_result(self) -> str:
-        n = 5
-        
-        home = int ( round(self.probs[0], n) * 10**(n+1) )
-        draw = int ( round(self.probs[1], n) * 10**(n+1) )
-        away = int ( round(self.probs[2], n) * 10**(n+1) )
-        
-        sum = home + draw + away
-        
-        winner = randint(1, sum)
-        
-        f = open('results/results.txt', 'a', encoding='utf-8')
-        f.write(f'{self.home.abbr} - {self.away.abbr}\n')
-        
-        if winner in range(1, home+1):
-            points[self.home.abbr] += 3
-            played_games[self.home.abbr] += 1
-            played_games[self.away.abbr] += 1
-            f.write(f'{self.home.abbr}\n')
-            f.write(f'................\n')
+        if self.winner == None:
+            n = 5
+            
+            home = int ( round(self.probs[0], n) * 10**(n+1) )
+            draw = int ( round(self.probs[1], n) * 10**(n+1) )
+            away = int ( round(self.probs[2], n) * 10**(n+1) )
+            
+            sum = home + draw + away
+            
+            winner = randint(1, sum)
+            
+            f = open('results/results.txt', 'a', encoding='utf-8')
+            f.write(f'{self.home.abbr} - {self.away.abbr}\n')
+            
+            if winner in range(1, home+1):
+                points[self.home.abbr] += 3
+                played_games[self.home.abbr] += 1
+                played_games[self.away.abbr] += 1
+                self.winner = self.home
+
+            if winner in range(home+1, home+draw+1):
+                points[self.home.abbr] += 1
+                points[self.away.abbr] += 1
+                played_games[self.home.abbr] += 1
+                played_games[self.away.abbr] += 1
+                self.winner = 'DRAW'
+
+            else:
+                points[self.away.abbr] += 3
+                played_games[self.home.abbr] += 1
+                played_games[self.away.abbr] += 1
+                self.winner = self.away
+
+            if self.winner == 'DRAW':
+                f.write(f'Result: DRAW\n')
+            else:
+                f.write(f'Result: {self.winner.name.upper()}\n')
+
+            f.write(f'---\n')
             f.close()
-            return 'H'
-        if winner in range(home+1, home+draw+1):
-            points[self.home.abbr] += 1
-            points[self.away.abbr] += 1
-            played_games[self.home.abbr] += 1
-            played_games[self.away.abbr] += 1
-            f.write(f'D\n')
-            f.write(f'................\n')
-            f.close()
-            return 'D'
+
+        
         else:
-            points[self.away.abbr] += 3
-            played_games[self.home.abbr] += 1
-            played_games[self.away.abbr] += 1
-            f.write(f'{self.away.abbr}\n')
-            f.write(f'................\n')
-            f.close()
-            return 'A'
+            raise Exception('Fixture already simulated')
 
 class Match(Fixture):
     pass

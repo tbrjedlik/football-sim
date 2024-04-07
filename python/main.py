@@ -36,6 +36,7 @@ def menu():
                 case '5':
                     y_n = ''
                     while y_n not in ['y','n']:
+                        print('')
                         y_n = input(f'Are you sure you want to exit? (y/n): ')
                     if y_n.lower() == 'y':
                         os.system('exit')
@@ -66,6 +67,7 @@ def menu():
                     
                     case '3':
                         y_n = ''
+                        print('')
                         while y_n not in ['y','n']:
                             y_n = input(f'Are you want to start a new simulation? (y/n): ')
                         if y_n.lower() == 'y':
