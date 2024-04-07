@@ -15,12 +15,12 @@
     height: 4rem;
 }
 
-.welcome-title {
-    margin-top: 10vh;
+h1 {
+    margin-top: 10rem;
     text-align: center;
 }
 
-.welcome-title_2 {
+h4 {
     text-align: center;
 }
 
@@ -32,25 +32,28 @@
 }
 
 .card{
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-    margin-left: -1px;
-    margin-right: -1px;
-    border: none;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    margin-left: -5px;
+    margin-right: -5px;
 }
 
-/* .card-img-top{
-    -webkit-filter: brightness(70%);
+.card-img-top{
+    width: 100%;
+    height: 28rem;
+    object-fit: cover;
+    object-position: center;
 }
 
 .card-img-top:hover{
-    -webkit-filter: brightness(100%);
-    transition: .5s;
-} */
+    opacity: 0.9;
+    transition: 1s;
+    cursor: pointer; 
+}
 
-.kep_szoveg{
+.pic-text{
     position: absolute;
-    top: 10%;
+    top: 15%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: aliceblue;
@@ -58,19 +61,6 @@
 
 }
 
-.footer{
-    background-color: #1a1a1a;
-    text-align: center;
-    color: aliceblue;
-    padding: .6rem;
-    position: sticky;
-    top: 100%;
-}
-
-.profiles{
-    margin-bottom: 5rem;
-}
-
-.col-lg-4 img {
-    width: 100%;
+.pt-10{
+    padding-top: 10rem;
 }
