@@ -1,320 +1,69 @@
-/* FONTS */
-
-/* @font-face {
-    font-family: "Arkitype-Super-League-Black-Oblique";
-    src: url("/web/fonts/Arkitype\ -\ Super\ League\ Black.ttf") format("truetype");
+.navbar-nav { 
+    margin-left: auto;
 }
 
-@font-face {
-    font-family: "Arkitype-Super-League-Black";
-    src: url("/web/fonts/Arkitype\ -\ Super\ League\ Black\ Oblique.ttf") format("truetype");
+.bg{
+    background-color: white;
 }
 
-@font-face {
-    font-family: "Arkitype-Super-League-Bold-Oblique";
-    src: url("/web/fonts/Arkitype\ -\ Super\ League\ Bold.ttf") format("truetype");
+.textb{
+    color: black !important;
 }
 
-@font-face {
-    font-family: "Arkitype-Super-League-Bold";
-    src: url("/web/fonts/Arkitype\ -\ Super\ League\ Bold.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: "Arkitype-Super-League-Extra-Bold-Oblique";
-    src: url("/web/fonts/Arkitype\ -\ Super\ League\ Bold.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: "Arkitype-Super-League-Extra-Bold";
-    src: url("/web/fonts/Arkitype\ -\ Super\ League\ Bold.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: "Arkitype-Super-League-Extra-Light-Oblique";
-    src: url("/web/fonts/Arkitype\ -\ Super\ League\ Bold.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: "Arkitype-Super-League-Extra-Light";
-    src: url("/web/fonts/Arkitype\ -\ Super\ League\ Bold.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: "Arkitype-Super-League-Light-Oblique";
-    src: url("/web/fonts/Arkitype\ -\ Super\ League\ Bold.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: "Arkitype-Super-League-Light";
-    src: url("/web/fonts/Arkitype\ -\ Super\ League\ Bold.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: "Arkitype-Super-League-Medium-Oblique";
-    src: url("/web/fonts/Arkitype\ -\ Super\ League\ Bold.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: "Arkitype-Super-League-Medium";
-    src: url("/web/fonts/Arkitype\ -\ Super\ League\ Bold.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: "Arkitype-Super-League-Regular-Oblique";
-    src: url("/web/fonts/Arkitype\ -\ Super\ League\ Bold.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: "Arkitype-Super-League-Regular-Oblique";
-    src: url("/web/fonts/Arkitype\ -\ Super\ League\ Bold.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: "Arkitype-Super-League-..........";
-    src: url("/web/fonts/Arkitype\ -\ Super\ League\ Bold.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: "Arkitype-Super-League---------------";
-    src: url("/web/fonts/Arkitype\ -\ Super\ League\ Bold.ttf") format("truetype");
-}
- */
-
-
-
-
-
-
-
-
-
-/* HTML */
-
-html{
-    overflow-x: hidden !important;
-}
-
-*{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-a{
-    color: white;
-    text-decoration: none;
-}
-
-a:visited{
-    color: white;
-    text-decoration: none;
-}
-
-.bg-db{
-    background-color: rgb(0, 0, 70);
-}
-
-.navbar-nav{
-    margin: auto;
-    position: sticky;
-}
-
-.index-text{
-    color: white;
+.indexlogo {
     width: 100%;
+    height: 4rem;
 }
 
-.kep1{
-    background-image: url(pictures/blue2.jpg);
-    min-height:690px;
+h1 {
+    margin-top: 10rem;
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+.bg-pic {
+    object-fit: cover;
     width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50%;
+    height: 35rem;
+    object-position: center 100%;
 }
 
-.kep2{
-    background-image: url(pics/iPhone14feher.png);
-    min-height:690px;
+.card{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.card-img-top{
     width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50%;
+    height: 28rem;
+    object-fit: cover;
+    object-position: center;
 }
 
-.kep3{
-    background-image: url(pics/watchfekete.png);
-    min-height:690px;
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50%;
+.card-img-top:hover{
+    opacity: 0.9;
+    transition: 1s;
+    cursor: pointer; 
 }
 
-.index-text h1{
-    font-size: 3.5rem;
-    font-weight: bold;
-}
+.pic-text{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+    font-size: 220%;
 
-.index-text h3{
-    font-size: 1.8rem;
-}
-
-.index-text a{
-    font-size: 1.4rem;
-}
-
-.card-kep1{
-    background-image: url(pictures/pic1.jpg);
-    min-height: 580px;
-    max-width: 928px;
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50%;
-}
-
-.card-kep2{
-    background-image: url(pics/ipad.png);
-    min-height: 580px;
-    max-width: 928px;
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50%;
-}
-
-.card-kep3{
-    background-image: url(pics/iphone.png);
-    min-height: 580px;
-    max-width: 928px;
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50%;
-}
-
-.card-kep4{
-    background-image: url(pics/macbook.png);
-    min-height: 500px;
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50%;
 }
 
 .pt-10{
-    padding-top: 600px;
+    padding-top: 10rem;
 }
-
-.cad-text{
-    color: white;
-    width: 100%;
-}
-
-.cad-text h1{
-    font-size: 2rem;
-    font-weight: bold;
-}
-
-.cad-text h3{
-    font-size: 1.4rem;
-}
-
-.cad-text a{
-    font-size: 1.1rem;
-}
-
-#carouselExampleAutoplaying{
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-.carousel-kep{
-    width: 100% !important;
-}
-
-.mt-s{
-    margin-top: 100px;
-}
-
-.ms-s{
-    margin-left: 30px;
-}
-
-.card-title{
-    font-size: 1.5em;
-}
-
-.card-text{
-    font-size: 0.9em;
-}
-
-.card1{
-    width: 360px !important;
-}
-
-.bold{
-    font-weight: bold;
-    font-size: 3em;
-}
-
-/* div.col-sm-12{
-    width: 98%;
-} */
-
-.autocarousel{
-    max-width: 700px;
-}
-
-.content{
-    width: fit-content;
-}
-
-.kiseb{
-    width: 98%;
-}
-
-#carousel img{
-    border: 5px solid black;
-}
-
-.border1{
-    border-bottom: solid 5px black;
-    margin-left: 10px;
-    margin-right: 1335px;
-}
-
-.w-750{
-    width: 87%;
-    max-width: 750px !important;
-    height: auto;
-}
-
-#carousel2{
-    bottom: 3000px !important;
-}
-
-.w-850{
-    width: 87%;
-    max-width: 940px !important;
-    height: auto;
-}
-
-.card2{
-    width: 600px !important;
-}
-
-.pe-10{
-    padding-right: 5rem;
-}
-
-.ps-10{
-    padding-left: 5rem;
-}
-
-
-/* TEAMS */
-
 
 .logo{
     text-align: center;
