@@ -1,3 +1,18 @@
 # Football Szimuláció
+## _Koncepció:_
+A Python program egy football szezont szimulál le, előre meghatározott értékek alapján.
 
-Ez a program egy foci liga meccseit szimulálja le, melyben tetszőleges számú csapat vesz részt.
+## _Készítők:_
+Tóth Barna Róbert:
+- python
+- theleague.html
+- project management
+
+Sarmon Bálint:
+- teams.html
+- creators.html
+- css
+
+Zoltai Tamás:
+- index.html
+- css
