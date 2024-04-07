@@ -73,6 +73,7 @@ h4 {
 .title{
     text-align: center;
     font-size: 8rem;
+    color: #031938;
     font-family: fantasy;
 }
 
@@ -102,3 +103,22 @@ h4 {
 .side-line.right{
     right: 0;
   }
+
+.creator-pic{
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+    max-height: 30rem;
+}
+
+.creator-name{
+    padding-top: 2rem;
+    color: #031938;
+}
+
+.creator-text{
+    text-align: center;
+    font-size: 2.5rem;
+    padding-top: 2rem;
+    color: #031938;
+}
