@@ -316,17 +316,41 @@ a:visited{
 /* TEAMS */
 
 
-.logo_and_subtitle{
+.logo{
     text-align: center;
+    align-items: center;
 }
 
-.text{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 125%;
-    padding-top: 5%;
+.title{
+    text-align: center;
+    font-size: 8rem;
+    padding-top: 4%;
+    font-family: fantasy;
 }
 
-.team_pics{
-    height: 20%;    
+.logo img {
+    transition: transform 0.3s ease;
+    max-width: 12rem;
+    max-height: 12rem;
 }
 
+.logo img:hover {
+    transform: scale(1.1);
+}
+
+.side-line {
+    position: fixed;
+    top: 0;
+    width: 4rem;
+    height: 100%;
+    background-color: #031938;
+    z-index: 1000;
+  }
+  
+  .top-bar.left {
+    left: 0;
+  }
+  
+  .top-bar.right {
+    right: 0;
+  }
