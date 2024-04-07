@@ -43,6 +43,7 @@ class Fixture:
             draw = int ( round(self.probs[1], n) * 10**(n+1) )
             away = int ( round(self.probs[2], n) * 10**(n+1) )
             
+            
             sum = home + draw + away
             
             winner = randint(1, sum)
@@ -58,7 +59,6 @@ class Fixture:
                 while self.final_score[0] <= self.final_score[1]:
                     self.final_score = self.goal_number_calc()
                     
-
             if winner in range(home+1, home+draw+1):
                 self.final_score = [1, 0]
 
@@ -212,7 +212,7 @@ def round_robin():
 
 
 
-# FIX = Fixture(1, 2)
+# FIX = Fixture(0, 2)
 # print(f'{FIX.home.name} - {FIX.away.name}')
 # print(f'{FIX.home_odds} | {FIX.draw_odds} | {FIX.away_odds}')
 # FIX.simulating_result()

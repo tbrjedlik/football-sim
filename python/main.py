@@ -102,7 +102,46 @@ def table():
     menu()
 
 def prev_results():
-    pass
+    global upcoming_round
+
+    if upcoming_round == 1:
+        os.system('cls')
+        print('\n+---------+')
+        print('| RESULTS |')
+        print('+---------+\n')
+        print('No results yet.')
+        input('\nMENU >>> ')
+        menu()
+        
+    os.system('cls')
+    print('\n+---------+')
+    print('| RESULTS |')
+    print('+---------+\n')
+    
+    v = 0
+    
+    while v not in range(1, upcoming_round):
+
+        user_input = input(f'Enter round number ({1}-{upcoming_round-1}) or type "M" for menu: ')
+        if user_input.lower() == "m":
+            menu()
+            break
+        elif user_input.isdigit():
+            v = int(user_input)
+        if v in range(1, upcoming_round):
+
+            os.system('cls')
+            print('\n+---------+')
+            print('| RESULTS |')
+            print('+---------+\n')
+
+            print(f'\nROUND {v} RESULTS:\n')
+
+            for f in fixtures[ ( (v-1) *  int(len(clubs)/2) ) : (v * int(len(clubs)/2) )]:
+                print(f'{f.home.name} {f.home_score} - {f.away_score} {f.away.name}')
+                print()
+            
+            v = 0
 
 def upcoming_fixtures():
     global upcoming_round
