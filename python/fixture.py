@@ -28,11 +28,10 @@ class Fixture:
             self.home_odds = round( prob_to_odd(self.home_prob) , 2)
             self.draw_odds = round( prob_to_odd(self.draw_prob) , 2)
             self.away_odds = round( prob_to_odd(self.away_prob) , 2)
-
+            
             self.winner = None
             
     def simulating_result(self) -> str:
-        
         if self.winner == None:
             n = 5
             
@@ -51,8 +50,6 @@ class Fixture:
                 points[self.home.abbr] += 3
                 played_games[self.home.abbr] += 1
                 played_games[self.away.abbr] += 1
-                f.write(f'{self.home.abbr}\n')
-                f.write(f'---\n')
                 self.winner = self.home
 
             if winner in range(home+1, home+draw+1):
@@ -60,22 +57,25 @@ class Fixture:
                 points[self.away.abbr] += 1
                 played_games[self.home.abbr] += 1
                 played_games[self.away.abbr] += 1
-                f.write(f'D\n')
-                f.write(f'---\n')
-                self.winner = 'draw'
+                self.winner = 'DRAW'
 
             else:
                 points[self.away.abbr] += 3
                 played_games[self.home.abbr] += 1
                 played_games[self.away.abbr] += 1
-                f.write(f'{self.away.abbr}\n')
-                f.write(f'---\n')
                 self.winner = self.away
-            
+
+            if self.winner == 'DRAW':
+                f.write(f'Result: DRAW\n')
+            else:
+                f.write(f'Result: {self.winner.name.upper()}\n')
+
+            f.write(f'---\n')
             f.close()
+
         
         else:
-            raise Exception('Fixture is already simulated.')
+            raise Exception('Fixture already simulated')
 
 class Match(Fixture):
     pass

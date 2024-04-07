@@ -39,7 +39,3 @@ def main_title():
     input('CONTINUE >>> ')
     
     os.system('cls')
-
-
-
-

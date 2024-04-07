@@ -1,0 +1,76 @@
+.navbar-nav {
+    margin-left: auto;
+}
+
+.bg{
+    background-color: white;
+}
+
+.textb{
+    color: black !important;
+}
+
+.logo {
+    width: 100%;
+    height: 4rem;
+}
+
+.welcome-title {
+    margin-top: 10vh;
+    text-align: center;
+}
+
+.welcome-title_2 {
+    text-align: center;
+}
+
+.bg-pic {
+    object-fit: cover;
+    width: 100%;
+    height: 35rem;
+    object-position: center 100%;
+}
+
+.card{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-left: -1px;
+    margin-right: -1px;
+    border: none;
+}
+
+/* .card-img-top{
+    -webkit-filter: brightness(70%);
+}
+
+.card-img-top:hover{
+    -webkit-filter: brightness(100%);
+    transition: .5s;
+} */
+
+.kep_szoveg{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+    font-size: 220%;
+
+}
+
+.footer{
+    background-color: #1a1a1a;
+    text-align: center;
+    color: aliceblue;
+    padding: .6rem;
+    position: sticky;
+    top: 100%;
+}
+
+.profiles{
+    margin-bottom: 5rem;
+}
+
+.col-lg-4 img {
+    width: 100%;
+}
