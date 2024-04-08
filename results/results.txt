@@ -1,0 +1,1140 @@
+ARS - RBL
+Result: RB LEIPZIG
+---
+PSG - AVL
+Result: ASTON VILLA
+---
+POR - BVB
+Result: BORUSSIA DORTMUND
+---
+RMA - NAP
+Result: NAPOLI
+---
+B04 - ATM
+Result: DRAW
+---
+TOT - SCP
+Result: DRAW
+---
+LIV - BAY
+Result: BAYERN MÜNCHEN
+---
+INT - ACM
+Result: DRAW
+---
+MCI - PSV
+Result: PSV
+---
+JUV - BAR
+Result: BARCELONA
+---
+ARS - AVL
+Result: ASTON VILLA
+---
+RBL - BVB
+Result: BORUSSIA DORTMUND
+---
+PSG - NAP
+Result: NAPOLI
+---
+POR - ATM
+Result: ATLÉTICO MADRID
+---
+RMA - SCP
+Result: SPORTING CP
+---
+B04 - BAY
+Result: DRAW
+---
+TOT - ACM
+Result: DRAW
+---
+LIV - PSV
+Result: PSV
+---
+INT - BAR
+Result: BARCELONA
+---
+MCI - JUV
+Result: DRAW
+---
+ARS - BVB
+Result: BORUSSIA DORTMUND
+---
+AVL - NAP
+Result: DRAW
+---
+RBL - ATM
+Result: ATLÉTICO MADRID
+---
+PSG - SCP
+Result: SPORTING CP
+---
+POR - BAY
+Result: DRAW
+---
+RMA - ACM
+Result: AC MILAN
+---
+B04 - PSV
+Result: PSV
+---
+TOT - BAR
+Result: DRAW
+---
+LIV - JUV
+Result: JUVENTUS
+---
+INT - MCI
+Result: MANCHESTER CITY
+---
+ARS - NAP
+Result: NAPOLI
+---
+BVB - ATM
+Result: DRAW
+---
+AVL - SCP
+Result: SPORTING CP
+---
+RBL - BAY
+Result: DRAW
+---
+PSG - ACM
+Result: AC MILAN
+---
+POR - PSV
+Result: PSV
+---
+RMA - BAR
+Result: BARCELONA
+---
+B04 - JUV
+Result: DRAW
+---
+TOT - MCI
+Result: MANCHESTER CITY
+---
+LIV - INT
+Result: INTERNAZIONALE
+---
+ARS - ATM
+Result: ATLÉTICO MADRID
+---
+NAP - SCP
+Result: DRAW
+---
+BVB - BAY
+Result: BAYERN MÜNCHEN
+---
+AVL - ACM
+Result: DRAW
+---
+RBL - PSV
+Result: PSV
+---
+PSG - BAR
+Result: DRAW
+---
+POR - JUV
+Result: DRAW
+---
+RMA - MCI
+Result: DRAW
+---
+B04 - INT
+Result: INTERNAZIONALE
+---
+TOT - LIV
+Result: LIVERPOOL
+---
+ARS - SCP
+Result: SPORTING CP
+---
+ATM - BAY
+Result: DRAW
+---
+NAP - ACM
+Result: AC MILAN
+---
+BVB - PSV
+Result: PSV
+---
+AVL - BAR
+Result: BARCELONA
+---
+RBL - JUV
+Result: JUVENTUS
+---
+PSG - MCI
+Result: MANCHESTER CITY
+---
+POR - INT
+Result: INTERNAZIONALE
+---
+RMA - LIV
+Result: LIVERPOOL
+---
+B04 - TOT
+Result: DRAW
+---
+ARS - BAY
+Result: DRAW
+---
+SCP - ACM
+Result: AC MILAN
+---
+ATM - PSV
+Result: DRAW
+---
+NAP - BAR
+Result: BARCELONA
+---
+BVB - JUV
+Result: JUVENTUS
+---
+AVL - MCI
+Result: DRAW
+---
+RBL - INT
+Result: INTERNAZIONALE
+---
+PSG - LIV
+Result: DRAW
+---
+POR - TOT
+Result: TOTTENHAM HOTSPUR
+---
+RMA - B04
+Result: BAYER LEVERKUSEN
+---
+ARS - ACM
+Result: AC MILAN
+---
+BAY - PSV
+Result: PSV
+---
+SCP - BAR
+Result: BARCELONA
+---
+ATM - JUV
+Result: JUVENTUS
+---
+NAP - MCI
+Result: MANCHESTER CITY
+---
+BVB - INT
+Result: INTERNAZIONALE
+---
+AVL - LIV
+Result: LIVERPOOL
+---
+RBL - TOT
+Result: DRAW
+---
+PSG - B04
+Result: BAYER LEVERKUSEN
+---
+POR - RMA
+Result: DRAW
+---
+ARS - PSV
+Result: PSV
+---
+ACM - BAR
+Result: DRAW
+---
+BAY - JUV
+Result: DRAW
+---
+SCP - MCI
+Result: MANCHESTER CITY
+---
+ATM - INT
+Result: INTERNAZIONALE
+---
+NAP - LIV
+Result: LIVERPOOL
+---
+BVB - TOT
+Result: DRAW
+---
+AVL - B04
+Result: DRAW
+---
+RBL - RMA
+Result: REAL MADRID
+---
+PSG - POR
+Result: DRAW
+---
+ARS - BAR
+Result: BARCELONA
+---
+PSV - JUV
+Result: JUVENTUS
+---
+ACM - MCI
+Result: MANCHESTER CITY
+---
+BAY - INT
+Result: INTERNAZIONALE
+---
+SCP - LIV
+Result: DRAW
+---
+ATM - TOT
+Result: TOTTENHAM HOTSPUR
+---
+NAP - B04
+Result: BAYER LEVERKUSEN
+---
+BVB - RMA
+Result: REAL MADRID
+---
+AVL - POR
+Result: DRAW
+---
+RBL - PSG
+Result: PSG
+---
+ARS - JUV
+Result: JUVENTUS
+---
+BAR - MCI
+Result: MANCHESTER CITY
+---
+PSV - INT
+Result: DRAW
+---
+ACM - LIV
+Result: LIVERPOOL
+---
+BAY - TOT
+Result: TOTTENHAM HOTSPUR
+---
+SCP - B04
+Result: BAYER LEVERKUSEN
+---
+ATM - RMA
+Result: REAL MADRID
+---
+NAP - POR
+Result: PORTO
+---
+BVB - PSG
+Result: DRAW
+---
+AVL - RBL
+Result: RB LEIPZIG
+---
+ARS - MCI
+Result: MANCHESTER CITY
+---
+JUV - INT
+Result: DRAW
+---
+BAR - LIV
+Result: LIVERPOOL
+---
+PSV - TOT
+Result: TOTTENHAM HOTSPUR
+---
+ACM - B04
+Result: BAYER LEVERKUSEN
+---
+BAY - RMA
+Result: DRAW
+---
+SCP - POR
+Result: PORTO
+---
+ATM - PSG
+Result: DRAW
+---
+NAP - RBL
+Result: RB LEIPZIG
+---
+BVB - AVL
+Result: ASTON VILLA
+---
+ARS - INT
+Result: INTERNAZIONALE
+---
+MCI - LIV
+Result: LIVERPOOL
+---
+JUV - TOT
+Result: TOTTENHAM HOTSPUR
+---
+BAR - B04
+Result: BAYER LEVERKUSEN
+---
+PSV - RMA
+Result: DRAW
+---
+ACM - POR
+Result: DRAW
+---
+BAY - PSG
+Result: PSG
+---
+SCP - RBL
+Result: RB LEIPZIG
+---
+ATM - AVL
+Result: ASTON VILLA
+---
+NAP - BVB
+Result: BORUSSIA DORTMUND
+---
+ARS - LIV
+Result: LIVERPOOL
+---
+INT - TOT
+Result: TOTTENHAM HOTSPUR
+---
+MCI - B04
+Result: DRAW
+---
+JUV - RMA
+Result: REAL MADRID
+---
+BAR - POR
+Result: PORTO
+---
+PSV - PSG
+Result: PSG
+---
+ACM - RBL
+Result: RB LEIPZIG
+---
+BAY - AVL
+Result: ASTON VILLA
+---
+SCP - BVB
+Result: BORUSSIA DORTMUND
+---
+ATM - NAP
+Result: NAPOLI
+---
+ARS - TOT
+Result: TOTTENHAM HOTSPUR
+---
+LIV - B04
+Result: BAYER LEVERKUSEN
+---
+INT - RMA
+Result: REAL MADRID
+---
+MCI - POR
+Result: PORTO
+---
+JUV - PSG
+Result: PSG
+---
+BAR - RBL
+Result: RB LEIPZIG
+---
+PSV - AVL
+Result: ASTON VILLA
+---
+ACM - BVB
+Result: BORUSSIA DORTMUND
+---
+BAY - NAP
+Result: DRAW
+---
+SCP - ATM
+Result: ATLÉTICO MADRID
+---
+ARS - B04
+Result: DRAW
+---
+TOT - RMA
+Result: REAL MADRID
+---
+LIV - POR
+Result: PORTO
+---
+INT - PSG
+Result: PSG
+---
+MCI - RBL
+Result: RB LEIPZIG
+---
+JUV - AVL
+Result: DRAW
+---
+BAR - BVB
+Result: DRAW
+---
+PSV - NAP
+Result: DRAW
+---
+ACM - ATM
+Result: DRAW
+---
+BAY - SCP
+Result: SPORTING CP
+---
+ARS - RMA
+Result: REAL MADRID
+---
+B04 - POR
+Result: PORTO
+---
+TOT - PSG
+Result: DRAW
+---
+LIV - RBL
+Result: RB LEIPZIG
+---
+INT - AVL
+Result: DRAW
+---
+MCI - BVB
+Result: BORUSSIA DORTMUND
+---
+JUV - NAP
+Result: DRAW
+---
+BAR - ATM
+Result: DRAW
+---
+PSV - SCP
+Result: SPORTING CP
+---
+ACM - BAY
+Result: BAYERN MÜNCHEN
+---
+ARS - POR
+Result: PORTO
+---
+RMA - PSG
+Result: PSG
+---
+B04 - RBL
+Result: RB LEIPZIG
+---
+TOT - AVL
+Result: ASTON VILLA
+---
+LIV - BVB
+Result: BORUSSIA DORTMUND
+---
+INT - NAP
+Result: DRAW
+---
+MCI - ATM
+Result: ATLÉTICO MADRID
+---
+JUV - SCP
+Result: SPORTING CP
+---
+BAR - BAY
+Result: DRAW
+---
+PSV - ACM
+Result: DRAW
+---
+ARS - PSG
+Result: PSG
+---
+POR - RBL
+Result: DRAW
+---
+RMA - AVL
+Result: ASTON VILLA
+---
+B04 - BVB
+Result: BORUSSIA DORTMUND
+---
+TOT - NAP
+Result: NAPOLI
+---
+LIV - ATM
+Result: ATLÉTICO MADRID
+---
+INT - SCP
+Result: SPORTING CP
+---
+MCI - BAY
+Result: BAYERN MÜNCHEN
+---
+JUV - ACM
+Result: AC MILAN
+---
+BAR - PSV
+Result: PSV
+---
+RBL - ARS
+Result: DRAW
+---
+AVL - PSG
+Result: PSG
+---
+BVB - POR
+Result: DRAW
+---
+NAP - RMA
+Result: DRAW
+---
+ATM - B04
+Result: BAYER LEVERKUSEN
+---
+SCP - TOT
+Result: TOTTENHAM HOTSPUR
+---
+BAY - LIV
+Result: LIVERPOOL
+---
+ACM - INT
+Result: INTERNAZIONALE
+---
+PSV - MCI
+Result: MANCHESTER CITY
+---
+BAR - JUV
+Result: JUVENTUS
+---
+AVL - ARS
+Result: DRAW
+---
+BVB - RBL
+Result: RB LEIPZIG
+---
+NAP - PSG
+Result: PSG
+---
+ATM - POR
+Result: PORTO
+---
+SCP - RMA
+Result: DRAW
+---
+BAY - B04
+Result: BAYER LEVERKUSEN
+---
+ACM - TOT
+Result: DRAW
+---
+PSV - LIV
+Result: LIVERPOOL
+---
+BAR - INT
+Result: INTERNAZIONALE
+---
+JUV - MCI
+Result: DRAW
+---
+BVB - ARS
+Result: ARSENAL
+---
+NAP - AVL
+Result: DRAW
+---
+ATM - RBL
+Result: DRAW
+---
+SCP - PSG
+Result: PSG
+---
+BAY - POR
+Result: PORTO
+---
+ACM - RMA
+Result: REAL MADRID
+---
+PSV - B04
+Result: DRAW
+---
+BAR - TOT
+Result: DRAW
+---
+JUV - LIV
+Result: LIVERPOOL
+---
+MCI - INT
+Result: INTERNAZIONALE
+---
+NAP - ARS
+Result: ARSENAL
+---
+ATM - BVB
+Result: BORUSSIA DORTMUND
+---
+SCP - AVL
+Result: ASTON VILLA
+---
+BAY - RBL
+Result: RB LEIPZIG
+---
+ACM - PSG
+Result: PSG
+---
+PSV - POR
+Result: PORTO
+---
+BAR - RMA
+Result: DRAW
+---
+JUV - B04
+Result: BAYER LEVERKUSEN
+---
+MCI - TOT
+Result: TOTTENHAM HOTSPUR
+---
+INT - LIV
+Result: LIVERPOOL
+---
+ATM - ARS
+Result: DRAW
+---
+SCP - NAP
+Result: NAPOLI
+---
+BAY - BVB
+Result: BORUSSIA DORTMUND
+---
+ACM - AVL
+Result: ASTON VILLA
+---
+PSV - RBL
+Result: DRAW
+---
+BAR - PSG
+Result: PSG
+---
+JUV - POR
+Result: PORTO
+---
+MCI - RMA
+Result: REAL MADRID
+---
+INT - B04
+Result: BAYER LEVERKUSEN
+---
+LIV - TOT
+Result: DRAW
+---
+SCP - ARS
+Result: ARSENAL
+---
+BAY - ATM
+Result: ATLÉTICO MADRID
+---
+ACM - NAP
+Result: DRAW
+---
+PSV - BVB
+Result: BORUSSIA DORTMUND
+---
+BAR - AVL
+Result: DRAW
+---
+JUV - RBL
+Result: RB LEIPZIG
+---
+MCI - PSG
+Result: DRAW
+---
+INT - POR
+Result: PORTO
+---
+LIV - RMA
+Result: REAL MADRID
+---
+TOT - B04
+Result: DRAW
+---
+BAY - ARS
+Result: ARSENAL
+---
+ACM - SCP
+Result: SPORTING CP
+---
+PSV - ATM
+Result: DRAW
+---
+BAR - NAP
+Result: NAPOLI
+---
+JUV - BVB
+Result: BORUSSIA DORTMUND
+---
+MCI - AVL
+Result: ASTON VILLA
+---
+INT - RBL
+Result: DRAW
+---
+LIV - PSG
+Result: DRAW
+---
+TOT - POR
+Result: PORTO
+---
+B04 - RMA
+Result: REAL MADRID
+---
+ACM - ARS
+Result: ARSENAL
+---
+PSV - BAY
+Result: BAYERN MÜNCHEN
+---
+BAR - SCP
+Result: DRAW
+---
+JUV - ATM
+Result: ATLÉTICO MADRID
+---
+MCI - NAP
+Result: NAPOLI
+---
+INT - BVB
+Result: BORUSSIA DORTMUND
+---
+LIV - AVL
+Result: ASTON VILLA
+---
+TOT - RBL
+Result: DRAW
+---
+B04 - PSG
+Result: PSG
+---
+RMA - POR
+Result: PORTO
+---
+PSV - ARS
+Result: ARSENAL
+---
+BAR - ACM
+Result: AC MILAN
+---
+JUV - BAY
+Result: BAYERN MÜNCHEN
+---
+MCI - SCP
+Result: SPORTING CP
+---
+INT - ATM
+Result: DRAW
+---
+LIV - NAP
+Result: NAPOLI
+---
+TOT - BVB
+Result: BORUSSIA DORTMUND
+---
+B04 - AVL
+Result: ASTON VILLA
+---
+RMA - RBL
+Result: RB LEIPZIG
+---
+POR - PSG
+Result: PSG
+---
+BAR - ARS
+Result: ARSENAL
+---
+JUV - PSV
+Result: PSV
+---
+MCI - ACM
+Result: DRAW
+---
+INT - BAY
+Result: BAYERN MÜNCHEN
+---
+LIV - SCP
+Result: SPORTING CP
+---
+TOT - ATM
+Result: ATLÉTICO MADRID
+---
+B04 - NAP
+Result: NAPOLI
+---
+RMA - BVB
+Result: BORUSSIA DORTMUND
+---
+POR - AVL
+Result: ASTON VILLA
+---
+PSG - RBL
+Result: RB LEIPZIG
+---
+JUV - ARS
+Result: ARSENAL
+---
+MCI - BAR
+Result: BARCELONA
+---
+INT - PSV
+Result: PSV
+---
+LIV - ACM
+Result: AC MILAN
+---
+TOT - BAY
+Result: BAYERN MÜNCHEN
+---
+B04 - SCP
+Result: SPORTING CP
+---
+RMA - ATM
+Result: DRAW
+---
+POR - NAP
+Result: NAPOLI
+---
+PSG - BVB
+Result: BORUSSIA DORTMUND
+---
+RBL - AVL
+Result: ASTON VILLA
+---
+MCI - ARS
+Result: ARSENAL
+---
+INT - JUV
+Result: JUVENTUS
+---
+LIV - BAR
+Result: DRAW
+---
+TOT - PSV
+Result: PSV
+---
+B04 - ACM
+Result: AC MILAN
+---
+RMA - BAY
+Result: BAYERN MÜNCHEN
+---
+POR - SCP
+Result: SPORTING CP
+---
+PSG - ATM
+Result: ATLÉTICO MADRID
+---
+RBL - NAP
+Result: DRAW
+---
+AVL - BVB
+Result: DRAW
+---
+INT - ARS
+Result: DRAW
+---
+LIV - MCI
+Result: MANCHESTER CITY
+---
+TOT - JUV
+Result: JUVENTUS
+---
+B04 - BAR
+Result: BARCELONA
+---
+RMA - PSV
+Result: PSV
+---
+POR - ACM
+Result: AC MILAN
+---
+PSG - BAY
+Result: DRAW
+---
+RBL - SCP
+Result: SPORTING CP
+---
+AVL - ATM
+Result: ATLÉTICO MADRID
+---
+BVB - NAP
+Result: DRAW
+---
+LIV - ARS
+Result: ARSENAL
+---
+TOT - INT
+Result: DRAW
+---
+B04 - MCI
+Result: MANCHESTER CITY
+---
+RMA - JUV
+Result: JUVENTUS
+---
+POR - BAR
+Result: BARCELONA
+---
+PSG - PSV
+Result: DRAW
+---
+RBL - ACM
+Result: AC MILAN
+---
+AVL - BAY
+Result: BAYERN MÜNCHEN
+---
+BVB - SCP
+Result: SPORTING CP
+---
+NAP - ATM
+Result: ATLÉTICO MADRID
+---
+TOT - ARS
+Result: DRAW
+---
+B04 - LIV
+Result: DRAW
+---
+RMA - INT
+Result: INTERNAZIONALE
+---
+POR - MCI
+Result: MANCHESTER CITY
+---
+PSG - JUV
+Result: DRAW
+---
+RBL - BAR
+Result: BARCELONA
+---
+AVL - PSV
+Result: PSV
+---
+BVB - ACM
+Result: AC MILAN
+---
+NAP - BAY
+Result: BAYERN MÜNCHEN
+---
+ATM - SCP
+Result: SPORTING CP
+---
+B04 - ARS
+Result: DRAW
+---
+RMA - TOT
+Result: TOTTENHAM HOTSPUR
+---
+POR - LIV
+Result: DRAW
+---
+PSG - INT
+Result: DRAW
+---
+RBL - MCI
+Result: MANCHESTER CITY
+---
+AVL - JUV
+Result: JUVENTUS
+---
+BVB - BAR
+Result: BARCELONA
+---
+NAP - PSV
+Result: PSV
+---
+ATM - ACM
+Result: AC MILAN
+---
+SCP - BAY
+Result: DRAW
+---
+RMA - ARS
+Result: DRAW
+---
+POR - B04
+Result: BAYER LEVERKUSEN
+---
+PSG - TOT
+Result: TOTTENHAM HOTSPUR
+---
+RBL - LIV
+Result: LIVERPOOL
+---
+AVL - INT
+Result: INTERNAZIONALE
+---
+BVB - MCI
+Result: MANCHESTER CITY
+---
+NAP - JUV
+Result: JUVENTUS
+---
+ATM - BAR
+Result: BARCELONA
+---
+SCP - PSV
+Result: PSV
+---
+BAY - ACM
+Result: AC MILAN
+---
+POR - ARS
+Result: DRAW
+---
+PSG - RMA
+Result: REAL MADRID
+---
+RBL - B04
+Result: BAYER LEVERKUSEN
+---
+AVL - TOT
+Result: DRAW
+---
+BVB - LIV
+Result: LIVERPOOL
+---
+NAP - INT
+Result: INTERNAZIONALE
+---
+ATM - MCI
+Result: MANCHESTER CITY
+---
+SCP - JUV
+Result: JUVENTUS
+---
+BAY - BAR
+Result: BARCELONA
+---
+ACM - PSV
+Result: PSV
+---
+PSG - ARS
+Result: DRAW
+---
+RBL - POR
+Result: DRAW
+---
+AVL - RMA
+Result: REAL MADRID
+---
+BVB - B04
+Result: BAYER LEVERKUSEN
+---
+NAP - TOT
+Result: TOTTENHAM HOTSPUR
+---
+ATM - LIV
+Result: LIVERPOOL
+---
+SCP - INT
+Result: DRAW
+---
+BAY - MCI
+Result: DRAW
+---
+ACM - JUV
+Result: JUVENTUS
+---
+PSV - BAR
+Result: BARCELONA
+---
