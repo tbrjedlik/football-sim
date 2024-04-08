@@ -122,3 +122,25 @@ h4 {
     padding-top: 2rem;
     color: #031938;
 }
+
+.creator-text a{
+    color: #104a96;
+    transition: 0.5s;
+}
+
+.creator-text a:hover{
+    color: #031938;
+    transition: 0.5s;
+}
+
+div.centered {
+    margin: 0 auto;
+  }
+
+  .standing-text{
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 0;
+    color: #031938;
+    font-weight: bold ;
+}

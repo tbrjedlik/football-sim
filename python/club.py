@@ -17,7 +17,5 @@ for row in f:
     clubs.append(Club(row))
 f.close()
 
-if len(clubs) % 2!= 0:
-    raise Exception('Nem lehet páratlan számú csapat!')
 
 shuffle(clubs)

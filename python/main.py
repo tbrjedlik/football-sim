@@ -1,11 +1,76 @@
 import os, subprocess
 from club import clubs
 from sim import *
+from standing import *
 from fixture import *
 upcoming_round = 1
+sorted_by_points = sorted(points.items(), key=lambda x: x[1], reverse=True)
+
+def the_league_writing():
+    f = open('web/theleague.html', 'w', encoding='utf-8')
+    html_content = '''
+     <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="dist/bootstrap.min.css">
+        <link rel="stylesheet" href="styles.css">
+        <title>Teams</title>
+    </head>
+    <body>
+    <header>
+        <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img class="indexlogo" src="pictures/logo.png" alt=""></a>
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse textb" id="navbarNavAltMarkup" style="">
+            <div class="navbar-nav">
+                <a class="nav-link textb" href="teams.html">Teams</a>
+                <a class="nav-link textb" href="theleague.html">The League</a>
+                <a class="nav-link textb" href="creators.html">Creators</a>
+            </div>
+            </div>
+        </div>
+        </nav>
+    </header>
+    <header>
+        <div class="side-line left"></div>
+        <div class="side-line right"></div>
+    </header>
+    <div class="containers">
+        <h1 class="title">The League</h1>
+    </div>
+    <div class="card centered mt-5 mb-5" style="width: 30rem;">
+        <div class="card-header standing-text">
+            Standings
+        </div>
+        <ul class="list-group list-group-flush">
+          
+    '''
+    f.write(html_content)
+
+
+    
+    i=1
+    for s in standings:
+        f.write(f'<li class="list-group-item">{i} | {s.abbr} ({s.points})</li>\n')
+        i+=1
+    html_content = '''
+            </ul>
+      </div>
+    </body>
+    </html>
+    '''
+    f.write(html_content)
+    f.close()
+    
 
 def menu():
     global upcoming_round
+
     v = ''
     while v not in ['1', '2', '3', '4', '5']:
         os.system('cls')
@@ -44,6 +109,7 @@ def menu():
                         menu()
                 
         else:
+            
             while v not in ['1', '2', '3', '4']:
                 os.system('cls')
                 print('\n+------+')
@@ -86,6 +152,8 @@ def menu():
                             menu()
 
 def table():
+    global sorted_by_points
+    
     os.system('cls')
     print('\n+-------+')
     print('| TABLE |')
@@ -94,12 +162,30 @@ def table():
     print('--------|---------------|----------------')
     sorted_by_points = sorted(points.items(), key=lambda x: x[1], reverse=True)
 
+    f = open('results/standings.csv', 'w', encoding='utf-8')
+
     for k, v in sorted_by_points:
         print(f'{k}\t|\t{v}\t|\t{played_games[k]}')
+        f.write(f'{k};{v}\n')
+        
+    f.close()
+    
+    the_league_writing()
+
+    
+    
+        
 
     print('-----------------------------------------')
     input('\nMENU >>> ')
     menu()
+    
+
+            
+    
+    
+        
+    
 
 def prev_results():
     global upcoming_round
